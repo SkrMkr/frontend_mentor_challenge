@@ -1,0 +1,54 @@
+$primary-color: #333;
+$white: hsl(0, 0%, 100%);
+$ligh-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Outfit';
+  src: url(../../fonts/Outfit/Outfit-Thin.ttf);
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Outfit';
+  src: url(../../fonts/Outfit/Outfit-Bold.ttf);
+}
+
+body {
+  font-family: 'Outfit';
+  color: $primary-color;
+  background-color: $ligh-gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    width: 320px;
+    height: 500px;
+    border-radius: 30px;
+
+    img {
+      border-radius: 30px;
+      padding: 20px 20px 20px 20px;
+    }
+
+    p {
+      text-align: center;
+      margin: 0px 30px 20px 30px;
+    }
+  }
+}
+
+.bold {
+        font-weight: 700;
+        font-size: 20px;
+      }

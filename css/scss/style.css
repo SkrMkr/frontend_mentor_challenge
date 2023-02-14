@@ -1,0 +1,43 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Outfit";
+  src: url(../../fonts/Outfit/Outfit-Thin.ttf);
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Outfit";
+  src: url(../../fonts/Outfit/Outfit-Bold.ttf);
+}
+body {
+  font-family: "Outfit";
+  color: #333;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .card {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  width: 320px;
+  height: 500px;
+  border-radius: 30px;
+}
+.container .card img {
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+}
+.container .card p {
+  text-align: center;
+  margin: 0px 30px 20px 30px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
